@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pancu Barber</title>
+  <!-- Fuentes Elegantes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="logo">PANCU <span>BARBER</span></div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Precios</a></li>
+      <li><a href="#galeria">Cortes</a></li>
+      <li><a href="#fidelidad">Fidelidad</a></li>
+      <li><a href="#cancelar">Cancelar Cita</a></li>
+      <li><a href="#citas" class="btn-nav">Agendar Cita</a></li>
+    </ul>
+  </nav>
+
+  <!-- Portada / Hero -->
+  <header id="inicio" class="hero-section" style="background-image: linear-gradient(rgba(15, 12, 22, 0.82), rgba(15, 12, 22, 0.9)), url('assets/ESTUDIO 1.jpeg');">
+    <div class="hero-content">
+      <h1 class="brand-title">PANCU BARBER</h1>
+      <p class="hero-subtitle">Corte clásico y moderno con el máximo profesionalismo</p>
+      <a href="#citas" class="btn-primary">Reservar Cita</a>
+    </div>
+  </header>
+
+  <!-- Presentación / Sobre Mí -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2 class="section-title center">Sobre <span>Pancu Barber</span></h2>
+      <div class="about-card">
+        <p>¡Bienvenido a <strong>Pancu Barber</strong>! Dedicado al arte de la barbería con enfoque en pulcritud, detalles y una atención personalizada de primer nivel.</p>
+        <p>Garantizamos un espacio donde tu imagen y comodidad son la prioridad, utilizando las mejores herramientas y técnicas del sector.</p>
+        <div class="location-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <span><strong>Ubicación:</strong> Barrio Corazón de Jesús, Calle ancha. Diagonal a Abastecedor Familia González.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lista de Precios con tus Imágenes Locales -->
+  <section id="servicios" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title center">Nuestros <span>Precios</span></h2>
+      <div class="services-grid">
+        
+        <!-- Corte Completo -->
+        <div class="service-card highlight">
+          <div class="service-img">
+            <img src="assets/CORTE COMPLETO.jpeg" alt="Corte Completo">
+          </div>
+          <div class="service-info">
+            <h3>Corte Completo</h3>
+            <p class="desc">Incluye Barba y Cejas</p>
+            <span class="price">₡4,000</span>
+          </div>
+        </div>
+
+        <!-- Corte Normal -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="assets/CORTE NORMAL.jpeg" alt="Corte Normal">
+          </div>
+          <div class="service-info">
+            <h3>Corte Normal</h3>
+            <p class="desc">Incluye Cejas</p>
+            <span class="price">₡3,500</span>
+          </div>
+        </div>
+
+        <!-- Marcado -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="assets/MARCADO SERVICIO.jpeg" alt="Marcado">
+          </div>
+          <div class="service-info">
+            <h3>Marcado</h3>
+            <p class="desc">Perfilado y alineación pulida</p>
+            <span class="price">₡2,500</span>
+          </div>
+        </div>
+
+        <!-- Barba -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="assets/BARBA.jpeg" alt="Barba">
+          </div>
+          <div class="service-info">
+            <h3>Barba</h3>
+            <p class="desc">Arreglo y perfilado tradicional</p>
+            <span class="price">₡2,000</span>
+          </div>
+        </div>
+
+        <!-- Cejas -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="assets/CEJAS SERVICIO.jpeg" alt="Cejas">
+          </div>
+          <div class="service-info">
+            <h3>Cejas</h3>
+            <p class="desc">Diseño y perfilado impecable</p>
+            <span class="price">₡1,000</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería de Cortes -->
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2 class="section-title center">Galería de <span>Cortes</span></h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/IMAGEN 1.jpeg" alt="Corte 1"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN 2.jpeg" alt="Corte 2"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN 4.jpeg" alt="Corte 4"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN 5.jpeg" alt="Corte 5"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN 7.jpeg" alt="Corte 7"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN6.jpeg" alt="Corte 6"></div>
+        <div class="gallery-item"><img src="assets/IMAGEN9.jpeg" alt="Corte 9"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Club de Fidelidad y Cancelación de Citas -->
+  <section id="fidelidad" class="section bg-alt">
+    <div class="container loyalty-cancel-grid">
+      
+      <!-- Fidelidad -->
+      <div class="text-center">
+        <h2 class="section-title center"><i class="fa-solid fa-crown"></i> Menú de <span>Fidelidad</span></h2>
+        <p class="loyalty-subtitle">Por cada 2 cortes realizados, <strong>¡tu 3° corte es GRATIS!</strong></p>
+        <div class="loyalty-card">
+          <h3>Revisar mis cortes</h3>
+          <p>Ingresa tu número de WhatsApp:</p>
+          <div class="search-box">
+            <input type="tel" id="user-phone-check" placeholder="Ej: 64007766" />
+            <button onclick="checkLoyalty()" class="btn-primary">Consultar</button>
+          </div>
+          <div id="loyalty-result" class="loyalty-result-box"></div>
+        </div>
+      </div>
+
+      <!-- Cancelar Cita -->
+      <div id="cancelar" class="text-center">
+        <h2 class="section-title center"><i class="fa-solid fa-calendar-xmark"></i> Cancelar <span>Cita</span></h2>
+        <p class="loyalty-subtitle">¿No puedes asistir? Ingresa tu código de referencia:</p>
+        <div class="loyalty-card">
+          <h3>Anular mi reserva</h3>
+          <p>Ejemplo: PB-1234</p>
+          <div class="search-box">
+            <input type="text" id="cancel-ref-input" placeholder="Ej: PB-4582" />
+            <button onclick="cancelBooking()" class="btn-danger">Cancelar Cita</button>
+          </div>
+          <div id="cancel-result" class="loyalty-result-box"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Agendador Interactivo -->
+  <section id="citas" class="section">
+    <div class="container">
+      <h2 class="section-title center">Agenda tu <span>Cita</span></h2>
+      
+      <div class="booking-wrapper">
+        <form id="booking-form" class="booking-form">
+          <div class="form-group">
+            <label for="client-name">Nombre Completo</label>
+            <input type="text" id="client-name" required placeholder="Tu nombre">
+          </div>
+
+          <div class="form-group">
+            <label for="client-phone">Número de WhatsApp</label>
+            <input type="tel" id="client-phone" required placeholder="Ej: 64007766">
+          </div>
+
+          <div class="form-group">
+            <label for="service-select">Servicio Deseado</label>
+            <select id="service-select" required>
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option value="Corte Completo (₡4000)">Corte Completo - ₡4,000</option>
+              <option value="Corte Normal (₡3500)">Corte Normal - ₡3,500</option>
+              <option value="Marcado (₡2500)">Marcado - ₡2,500</option>
+              <option value="Barba (₡2000)">Barba - ₡2,000</option>
+              <option value="Cejas (₡1000)">Cejas - ₡1,000</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="style-select">Estilo de Corte Referencia (Opcional)</label>
+            <select id="style-select">
+              <option value="No especificado">Elige un estilo referencia</option>
+              <option value="Fade / Degradado Alto">Fade / Degradado Alto</option>
+              <option value="Fade / Degradado Medio">Fade / Degradado Medio</option>
+              <option value="Low Fade / Degradado Bajo">Low Fade / Degradado Bajo</option>
+              <option value="Taper Fade">Taper Fade</option>
+              <option value="Mullet Moderno">Mullet Moderno</option>
+              <option value="Corte Clásico">Corte Clásico / Tijera</option>
+            </select>
+          </div>
+
+          <!-- Calendario Interactivo -->
+          <div class="form-group">
+            <label>1. Selecciona un Día en el Calendario</label>
+            <div class="calendar-container">
+              <div class="calendar-header">
+                <button type="button" id="prev-month">&lt;</button>
+                <h4 id="calendar-month-year"></h4>
+                <button type="button" id="next-month">&gt;</button>
+              </div>
+              <div class="calendar-days-header">
+                <span>Dom</span><span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span>
+              </div>
+              <div class="calendar-grid" id="calendar-days"></div>
+            </div>
+          </div>
+
+          <!-- Cuadrícula de Horarios Verde/Rojo -->
+          <div class="form-group" id="slots-container" style="display:none;">
+            <label>2. Selecciona la Hora Disponible (Bloques de 45 min)</label>
+            <div class="slots-legend">
+              <span class="legend-item"><span class="box green"></span> Disponible</span>
+              <span class="legend-item"><span class="box red"></span> Ocupado / No Disponible</span>
+            </div>
+            <div class="slots-grid" id="slots-grid"></div>
+          </div>
+
+          <button type="submit" class="btn-primary btn-full" id="btn-submit" disabled>Confirmar Cita por WhatsApp</button>
+        </form>
+
+        <!-- Ticket de Referencia con Recordatorio -->
+        <div id="booking-ticket" class="ticket-container" style="display:none;">
+          <h3><i class="fa-solid fa-ticket"></i> Cita Confirmada</h3>
+          <p>Tu código de referencia es:</p>
+          <div class="ticket-code" id="ticket-code-display">PB-0000</div>
+          <p id="ticket-details"></p>
+          <div class="reminder-box" style="margin-top: 1rem;">
+            <a id="calendar-reminder-btn" href="#" target="_blank" class="btn-reminder"><i class="fa-solid fa-bell"></i> Agregar a Google Calendar (Avisa 15 min antes)</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Banner Final -->
+  <section class="final-banner" style="background-image: linear-gradient(rgba(15, 12, 22, 0.88), rgba(15, 12, 22, 0.88)), url('assets/ESTUDIO 2.jpeg');">
+    <div class="container text-center">
+      <h2>¡Te esperamos en <span>Pancu Barber</span>!</h2>
+      <p>Estilo profesional y la mejor atención a tu alcance.</p>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Pancu Barber - Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="https://wa.me/50664007766" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/pancu_barber_78?mdxt=MWJ1Mjg2MmN3cmNocw%3D%3D&utm_source=qr" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pancu_barber?_r=1&_t=ZS-9B5iH0eTfy4" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lógica JavaScript -->
+  <script>
+    let currentDate = new Date();
+    let selectedDateStr = null;
+    let selectedTimeStr = null;
+
+    let activeBookings = JSON.parse(localStorage.getItem('activeBookings')) || {};
+    let busySlots = {};
+
+    function updateBusySlots() {
+      busySlots = {};
+      for (let code in activeBookings) {
+        let b = activeBookings[code];
+        if (!busySlots[b.date]) busySlots[b.date] = [];
+        busySlots[b.date].push(b.time);
+      }
+    }
+    updateBusySlots();
+
+    const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+    document.addEventListener("DOMContentLoaded", () => {
+      renderCalendar();
+
+      document.getElementById('prev-month').addEventListener('click', () => {
+        currentDate.setMonth(currentDate.getMonth() - 1);
+        renderCalendar();
+      });
+
+      document.getElementById('next-month').addEventListener('click', () => {
+        currentDate.setMonth(currentDate.getMonth() + 1);
+        renderCalendar();
+      });
+    });
+
+    function renderCalendar() {
+      const year = currentDate.getFullYear();
+      const month = currentDate.getMonth();
+
+      document.getElementById('calendar-month-year').innerText = `${monthNames[month]} ${year}`;
+
+      const firstDayIndex = new Date(year, month, 1).getDay();
+      const totalDays = new Date(year, month + 1, 0).getDate();
+
+      const daysContainer = document.getElementById('calendar-days');
+      daysContainer.innerHTML = '';
+
+      const today = new Date();
+      today.setHours(0,0,0,0);
+
+      for (let i = 0; i < firstDayIndex; i++) {
+        const emptyDiv = document.createElement('div');
+        emptyDiv.classList.add('day-cell', 'empty');
+        daysContainer.appendChild(emptyDiv);
+      }
+
+      for (let day = 1; day <= totalDays; day++) {
+        const dayDiv = document.createElement('div');
+        dayDiv.classList.add('day-cell');
+        dayDiv.innerText = day;
+
+        const cellDate = new Date(year, month, day);
+
+        if (cellDate < today) {
+          dayDiv.classList.add('disabled-day');
+        } else {
+          const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+          
+          if (selectedDateStr === dateStr) {
+            dayDiv.classList.add('active-day');
+          }
+
+          dayDiv.addEventListener('click', () => {
+            document.querySelectorAll('.day-cell').forEach(d => d.classList.remove('active-day'));
+            dayDiv.classList.add('active-day');
+            selectedDateStr = dateStr;
+            selectedTimeStr = null;
+            document.getElementById('btn-submit').disabled = true;
+            generateTimeSlots(cellDate, dateStr);
+          });
+        }
+
+        daysContainer.appendChild(dayDiv);
+      }
+    }
+
+    function generateTimeSlots(dateObj, dateStr) {
+      const dayOfWeek = dateObj.getDay(); 
+      const slotsContainer = document.getElementById('slots-container');
+      const slotsGrid = document.getElementById('slots-grid');
+      slotsGrid.innerHTML = '';
+      slotsContainer.style.display = 'block';
+
+      let ranges = [];
+
+      // Lunes(1), Martes(2), Viernes(5), Domingo(0)
+      if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 5 || dayOfWeek === 0) {
+        ranges = [{ start: 8 * 60, end: 12 * 60 }, { start: 13 * 60, end: 24 * 60 }];
+      } 
+      // Miércoles(3)
+      else if (dayOfWeek === 3) {
+        ranges = [{ start: 8 * 60, end: 12 * 60 }, { start: 20 * 60, end: 24 * 60 }];
+      } 
+      // Jueves(4)
+      else if (dayOfWeek === 4) {
+        ranges = [{ start: 8 * 60, end: 18 * 60 }];
+      } 
+      // Sábado(6): 6:45 PM hasta las 12:00 AM
+      else if (dayOfWeek === 6) {
+        ranges = [{ start: 18 * 60 + 45, end: 24 * 60 }];
+      }
+
+      updateBusySlots();
+      const occupiedForDay = busySlots[dateStr] || [];
+
+      ranges.forEach(range => {
+        let current = range.start;
+        while (current + 45 <= range.end) {
+          const hours = Math.floor(current / 60);
+          const mins = current % 60;
+          const timeStr = formatTime(hours, mins);
+          
+          const slotBtn = document.createElement('button');
+          slotBtn.type = 'button';
+          slotBtn.classList.add('slot-btn');
+          slotBtn.innerText = timeStr;
+
+          if (occupiedForDay.includes(timeStr)) {
+            slotBtn.classList.add('red-slot');
+            slotBtn.disabled = true;
+          } else {
+            slotBtn.classList.add('green-slot');
+            slotBtn.addEventListener('click', () => {
+              document.querySelectorAll('.slot-btn').forEach(b => b.classList.remove('selected-slot'));
+              slotBtn.classList.add('selected-slot');
+              selectedTimeStr = timeStr;
+              document.getElementById('btn-submit').disabled = false;
+            });
+          }
+
+          slotsGrid.appendChild(slotBtn);
+          current += 45;
+        }
+      });
+    }
+
+    function formatTime(h, m) {
+      const ampm = h >= 12 && h < 24 ? 'PM' : 'AM';
+      let formattedHours = h % 12;
+      if (formattedHours === 0) formattedHours = 12;
+      const formattedMins = m < 10 ? '0' + m : m;
+      return `${formattedHours}:${formattedMins} ${ampm}`;
+    }
+
+    // Procesar Cita
+    document.getElementById('booking-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      if(!selectedDateStr || !selectedTimeStr) return;
+
+      const name = document.getElementById('client-name').value;
+      const phone = document.getElementById('client-phone').value;
+      const service = document.getElementById('service-select').value;
+      const style = document.getElementById('style-select').value;
+
+      const refCode = 'PB-' + Math.floor(1000 + Math.random() * 9000);
+
+      activeBookings[refCode] = { date: selectedDateStr, time: selectedTimeStr, phone: phone, service: service };
+      localStorage.setItem('activeBookings', JSON.stringify(activeBookings));
+      updateBusySlots();
+
+      let userLoyalty = JSON.parse(localStorage.getItem('loyalty_' + phone)) || { count: 0 };
+      userLoyalty.count += 1;
+      localStorage.setItem('loyalty_' + phone, JSON.stringify(userLoyalty));
+
+      let totalCortes = userLoyalty.count;
+      let mensajeFidelidad = "";
+      if (totalCortes % 3 === 0) {
+        mensajeFidelidad = " ¡Felicidades! Este corte es el 3° y es TOTALMENTE GRATIS 🎉";
+      } else {
+        mensajeFidelidad = ` Llevas ${totalCortes % 3}/2 cortes pagados. ¡Te falta ${3 - (totalCortes % 3)} para tu corte gratis!`;
+      }
+
+      document.getElementById('ticket-code-display').innerText = refCode;
+      document.getElementById('ticket-details').innerText = `${name}, tu cita para ${service} el día ${selectedDateStr} a las ${selectedTimeStr} fue agendada.` + mensajeFidelidad;
+      
+      let [timePart, modifier] = selectedTimeStr.split(' ');
+      let [hh, mm] = timePart.split(':');
+      if (modifier === 'PM' && hh !== '12') hh = parseInt(hh, 10) + 12;
+      if (modifier === 'AM' && hh === '12') hh = '00';
+      let startTimeFormatted = selectedDateStr.replace(/-/g, '') + 'T' + String(hh).padStart(2, '0') + mm + '00';
+      
+      let endTimestamp = new Date(`${selectedDateStr}T${String(hh).padStart(2, '0')}:${mm}:00`);
+      endTimestamp.setMinutes(endTimestamp.getMinutes() + 45);
+      let endYear = endTimestamp.getFullYear();
+      let endMonth = String(endTimestamp.getMonth() + 1).padStart(2, '0');
+      let endDay = String(endTimestamp.getDate()).padStart(2, '0');
+      let endHour = String(endTimestamp.getHours()).padStart(2, '0');
+      let endMin = String(endTimestamp.getMinutes()).padStart(2, '0');
+      let endTimeFormatted = `${endYear}${endMonth}${endDay}T${endHour}${endMin}00`;
+
+      let gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=Corte+en+Pancu+Barber&dates=${startTimeFormatted}/${endTimeFormatted}&details=Cita+en+Pancu+Barber.+Servicio:+${encodeURIComponent(service)}+-+Ref:+${refCode}&location=Barrio+Corazon+de+Jesus+Calle+ancha`;
+      document.getElementById('calendar-reminder-btn').href = gCalUrl;
+
+      document.getElementById('booking-ticket').style.display = 'block';
+
+      const textWA = `¡Hola Pancu Barber! 👋%0AMi nombre es: *${name}*%0AQuiero agendar mi cita:%0A- *Servicio:* ${service}%0A- *Estilo:* ${style}%0A- *Fecha:* ${selectedDateStr}%0A- *Hora:* ${selectedTimeStr}%0A- *Código Referencia:* ${refCode}%0A- *Fidelidad:* ${mensajeFidelidad}`;
+      
+      setTimeout(() => {
+        window.open(`https://wa.me/50664007766?text=${textWA}`, '_blank');
+      }, 1200);
+    });
+
+    // Consultar Fidelidad
+    function checkLoyalty() {
+      const phone = document.getElementById('user-phone-check').value;
+      const resultBox = document.getElementById('loyalty-result');
+      
+      if(!phone) {
+        resultBox.innerText = "Por favor ingresa un número de teléfono.";
+        resultBox.style.display = 'block';
+        return;
+      }
+
+      let userLoyalty = JSON.parse(localStorage.getItem('loyalty_' + phone)) || { count: 0 };
+      let count = userLoyalty.count;
+      let progress = count % 3;
+
+      if(count === 0) {
+        resultBox.innerHTML = `No hay cortes registrados aún con el número <strong>${phone}</strong>.`;
+      } else {
+        resultBox.innerHTML = `
+          <p>Cortes totales acumulados: <strong>${count}</strong></p>
+          <p>Progreso actual: <strong>${progress}/2 cortes pagados</strong></p>
+          <p>${progress === 2 ? '🔥 <strong>¡Tu PRÓXIMO corte agendado es GRATIS!</strong>' : `Te faltan <strong>${3 - progress}</strong> cortes para el gratuito.`}</p>
+        `;
+      }
+      resultBox.style.display = 'block';
+    }
+
+    // Cancelar Cita
+    function cancelBooking() {
+      const refInput = document.getElementById('cancel-ref-input');
+      const refCode = refInput ? refInput.value.trim() : "";
+      const resultBox = document.getElementById('cancel-result');
+
+      if(!refCode) {
+        resultBox.innerText = "Ingresa un código de referencia válido.";
+        resultBox.style.display = 'block';
+        return;
+      }
+
+      if(activeBookings[refCode]) {
+        delete activeBookings[refCode];
+        localStorage.setItem('activeBookings', JSON.stringify(activeBookings));
+        updateBusySlots();
+        resultBox.innerHTML = `✅ La cita con código <strong>${refCode}</strong> ha sido cancelada con éxito. El horario quedó disponible.`;
+        resultBox.style.display = 'block';
+        if(selectedDateStr) generateTimeSlots(new Date(selectedDateStr + 'T00:00:00'), selectedDateStr);
+      } else {
+        resultBox.innerHTML = `❌ No se encontró ninguna cita activa con el código <strong>${refCode}</strong>.`;
+        resultBox.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
